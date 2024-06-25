@@ -1,0 +1,37 @@
+.invalid {
+  border-color: #d14539;
+  background-color: rgba(230,169,171,.5);
+}
+#table{
+  width: 100%;
+  border-collapse: collapse;
+}
+  #table th, #table td {
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+  }
+ .error-message {
+  color: #d14539;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+ }
+
+.alert {
+  color: #fff;
+  padding: 20px;
+  background: #d14539;
+  width: 80%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+
+.alert_color {
+  color: #d14539;
+}
+.alert_bg {
+  background: rgba(230,169,171,.5);
+}
